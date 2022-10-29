@@ -10,10 +10,9 @@ soma_maxima = 0
 elemento_constante = -10
 elemento_constante_maximo = -10
 n_antecessor = -10
-# lista = [7,7,7,6,6,6]
-
+# lista = []
 # for i in lista:
-for i in range(150):
+for i in range(10):
     n_sucessor = int(input('Digite um número: '))
     # n_sucessor = i
     if n_antecessor == -10 or n_sucessor != n_antecessor + 1:
@@ -41,5 +40,5 @@ for i in range(150):
             elemento_constante_maximo = elemento_constante 
     n_antecessor = n_sucessor
 
-print(f'a maior sequencia consecutiva de números em ordem crescente tem {count_maximo_A} elementos, a soma máxima é {soma_maxima}')
-print(f'a maior sequencia consecutiva de número constantes tem {count_maximo_B} elementos. Dentre a(s) maior(es) sequencia(s), o maior elemento constante é {elemento_constante_maximo}')
+print(f'a maior sequencia consecutiva de números em ordem crescente tem {count_maximo_A} elementos. Considerando empate, a soma máxima é {soma_maxima}')
+print(f'a maior sequencia consecutiva de números constantes tem {count_maximo_B} elementos. Considerando empate, dentre as maiores sequencias, o maior elemento constante é {elemento_constante_maximo}')

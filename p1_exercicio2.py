@@ -1,5 +1,5 @@
-salario_fixo = float(input('Qual o salario fixo: '))
-vendas = float(input('Qual o valor das vendas: '))
+salario_fixo = float(input('Qual o salario fixo, em reais? '))
+vendas = float(input('Qual o valor das vendas, em reais? '))
 if vendas <= 1500:
     salario_final = salario_fixo + 0.05*vendas
 if vendas > 1500:
