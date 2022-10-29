@@ -1,5 +1,6 @@
 ## maior sequencia consecutiva de números em ordem crescente tem count_A elementos.
 ## maior sequencia consecutiva de números constantes tem count_B elementos.
+## -10 é um valor aleatório escolhido entre os negativos, apenas para marcar que essas variávies, no início, não fazem parte dos elementos digitados pelo usuário.
 
 count_A = 1
 count_maximo_A = 1
@@ -12,7 +13,7 @@ elemento_constante_maximo = -10
 n_antecessor = -10
 # lista = []
 # for i in lista:
-for i in range(10):
+for i in range(150):
     n_sucessor = int(input('Digite um número: '))
     # n_sucessor = i
     if n_antecessor == -10 or n_sucessor != n_antecessor + 1:
